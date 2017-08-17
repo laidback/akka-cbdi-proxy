@@ -1,0 +1,49 @@
+### Scala ###
+*.class
+*.log
+
+### sbt ###
+.cache/
+.history/
+.lib/
+dist/*
+logs/
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+### Application ###
+src/main/resources/dev.conf
+
+### Galenframework ###
+
+### Robotframework ###
+log.html
+report.html
+output.xml
+# Selenium Screenshots
+*.png
+
+### LC stuff ###
+TODO.md
+timeline*
+*.old
+
+### Scala-IDE ###
+.scala_dependencies
+.worksheet
+
+### IntelliJ ###
+*.iml
+*.ipr
+*.iws
+*idea
+out
+
+### Vim ###
+tags
+.*.swp
+.*.swo
+
